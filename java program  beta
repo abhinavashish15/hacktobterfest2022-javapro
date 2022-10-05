@@ -1,0 +1,20 @@
+package JAVA;
+import java.util.Scanner;
+public class fibnocii {
+    public static void main(String[] args) {
+        Scanner var = new Scanner(System.in); 
+        int term=var.nextInt();
+        var.close();
+        int i=0,j=1,k,l=1;
+        while(l<=term)
+        {
+            
+            System.out.print(i+" ");
+            k=i+j;
+            i=j;
+            j=k;
+            l++;
+            
+        }
+       
+    
