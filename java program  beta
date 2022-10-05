@@ -9,7 +9,7 @@ public class fibnocii {
         while(l<=term)
         {
             
-            System.out.print(i+" ");
+            System.out.println(i+ "   ");
             k=i+j;
             i=j;
             j=k;
